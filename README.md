@@ -21,7 +21,7 @@
 
 ## 🌟 Overview
 
-This project implements a comprehensive security operations platform that leverages advanced AI/ML capabilities to enhance traditional security tools. By combining BERT-based models with multi-agent systems, we create an intelligent security layer that can detect, analyze, and respond to threats in real-time.
+This project implements a comprehensive security operations platform that leverages advanced AI/ML capabilities to enhance traditional security tools. By combining BERT-based models with multi-RAG agent systems and XAI, we create an intelligent security layer that can detect, analyze, and respond to threats in real-time.
 
 ## 🏗️ Architecture
 
