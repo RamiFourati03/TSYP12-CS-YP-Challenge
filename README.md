@@ -34,7 +34,7 @@ Our solution consists of three main components:
 
 ### 2. Network Security Layer
 - Integration with pfSense for network monitoring
-- SURICATA for enhanced XAI capabilities
+- XAI for enhanced Suricata capabilities
 - Advanced Web Application Firewall (WAF) for application security
 - LimaCharlie EDR for endpoint detection and response
 - Real-time traffic analysis and filtering
@@ -49,9 +49,9 @@ Our solution consists of three main components:
 
 | Component | Purpose |
 |-----------|---------|
-| BERT Model | Threat pattern recognition and analysis |
+| BERT Model | Threat pattern recognition and analysis for web server |
 | Multi-RAG Agent | Intelligent decision making and correlation |
-| pfSense + SURICATA | Network monitoring and intrusion detection |
+| pfSense + SURICATA | Network monitoring and intrusion detection enhanced by XAI |
 | WAF | Web application protection and traffic filtering |
 | LimaCharlie | Cloud-native EDR and security operations |
 | Grafana | Security metrics visualization and alerting |
