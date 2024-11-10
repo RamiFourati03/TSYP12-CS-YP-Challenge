@@ -65,7 +65,8 @@ Our solution consists of three main components:
 4. **Intelligence**: AI analysis → IoC database
 5. **Response**: Automated actions via Tines playbooks
 6. **Monitoring**: Real-time visualization in Grafana
-   Workflow](Workflow.png)
+![Workflow Image](Workflow.png)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
