@@ -90,7 +90,6 @@ pip install -r requirements.txt
 ├── AI-base-model/          # Core AI components
 ├── Bert-based-model/       # BERT implementation
 ├── Multi-Rag-AI-agent/     # Intelligent agent system
-├── docs/                   # Documentation
 └── README.md              # This file
 ```
 
