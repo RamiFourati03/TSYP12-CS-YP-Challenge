@@ -10,7 +10,7 @@
 <div align="center">
   <img src="https://img.shields.io/badge/IEEE-ENETCOM%20Student%20Branch-00629B?style=for-the-badge&logo=ieee&logoColor=white"/>
   <br/>
-  <img src="https://img.shields.io/badge/IEEE-Computer%20Society%20ENET'Com-00629B?style=for-the-badge&logo=ieee&logoColor=white"/>
+  <img src="https://img.shields.io/badge/IEEE-Computer%20Society%20ENET'Com%20SBC-00629B?style=for-the-badge&logo=ieee&logoColor=white"/>
 </div>
 </h1>
 
