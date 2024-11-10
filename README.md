@@ -44,6 +44,8 @@ Our solution consists of three main components:
 - Automated incident response
 - Integration with security tools (Alien Vault, SOCRadar)
 - IoC database management
+  ![Network architecture](images/Network_architecture.png)
+
 
 ## 🔧 Components
 
