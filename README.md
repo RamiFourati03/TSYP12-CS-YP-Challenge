@@ -127,6 +127,81 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - 🔗 Tool integration ecosystem
 - 📈 Performance monitoring
 
+## 🎥 Solution Demo
+
+<div align="center">
+  
+  [<img src="https://img.shields.io/badge/Watch%20Demo%20Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>](https://drive.google.com/file/d/1s3CbdC4jHIV3iscPmfKrhXlDuSWvrbYg/view)
+
+  Watch our complete solution demonstration showcasing:
+  - 🛡️ Real-time threat detection
+  - 🤖 AI-driven analysis
+  - 🔄 Automated response system
+  - 📊 Live dashboard monitoring
+
+  <i>Click the button above to view the full demonstration</i>
+</div>
+
+---
+## 🐳 Docker Implementation & API Testing
+
+<div align="center">
+  
+  [<img src="https://img.shields.io/badge/Download%20Docker%20Image-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>](https://drive.google.com/drive/folders/1_4qUVsulUMQDqO5rVSN8m9A_5hShjbco?usp=sharing)
+
+  ### WAF Enhancement API with DistilBERT
+  Ready-to-use Docker image containing our FastAPI implementation of the DistilBERT model for WAF enhancement.
+</div>
+
+### 🚀 Quick Start
+
+```bash
+# Load the Docker image
+docker load < distilbert_waf_api.tar
+
+# Run the container
+docker run -d -p 8000:8000 distilbert_waf_api
+
+# Test the API
+curl -X POST "http://localhost:8000/predict" \
+     -H "Content-Type: application/json" \
+     -d '{"text": "your_test_input"}'
+```
+
+### 📋 API Endpoints
+
+| Endpoint | Method | Description |
+|----------|---------|------------|
+| `/predict` | POST | Analyze potential threats using DistilBERT |
+| `/health` | GET | Check API health status |
+| `/docs` | GET | Interactive API documentation |
+
+### 🔧 Features
+- 🚀 FastAPI-powered REST endpoints
+- 🤖 DistilBERT model for threat detection
+- ⚡ Real-time analysis capabilities
+- 📊 Performance metrics
+- 🔄 Easy integration with existing WAF
+
+### 📦 Contents
+The Docker image includes:
+- Optimized DistilBERT model
+- FastAPI application
+- Required dependencies
+- API documentation
+- Example test cases
+
+<details>
+<summary>💡 Testing Tips</summary>
+
+1. Use the included Swagger UI at `/docs` for interactive testing
+2. Check response times for optimization needs
+3. Monitor memory usage for production deployment
+4. Test with various input patterns
+</details>
+
+---
+
 ## 📫 Contact
 
 For questions or suggestions, please open an issue or contact the maintainers.
